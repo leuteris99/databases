@@ -104,3 +104,5 @@ CREATE TABLE programma_syntirisis
         FOREIGN KEY(ergasia_id) REFERENCES ergasia(ergasia_id),
         FOREIGN KEY(montelo_id) REFERENCES montelo(montelo_id)
     );
+
+-- TODO: na psakso to ignore
