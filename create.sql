@@ -35,8 +35,6 @@ CREATE TABLE ergasia (
     PRIMARY KEY (ergasia_id)
 );
 
--- ALTER TABLE montelo add FOREIGN KEY(ergasia_id) REFERENCES ergasia(ergasia_id);
-
 CREATE TABLE ypalilos (
     ypalilos_id INT(4),
     ypalilos_eponymo VARCHAR(20),
@@ -45,53 +43,53 @@ CREATE TABLE ypalilos (
 );
 
 CREATE TABLE aitima (
-    aitima_id INT(4),
+    syntirisi_id INT(4),
     autokinito_id INT(4),
     syntirisi_perigrafi VARCHAR(150),
     syntirisi_timestamp TIMESTAMP,
     syntirisi_kodikos INT(4),
     syntirisi_oloklirothike BOOLEAN,
-    PRIMARY KEY (aitima_id),
+    PRIMARY KEY (syntirisi_id),
     FOREIGN KEY (autokinito_id)
         REFERENCES autokinito (autokinito_id)
 );
 
 CREATE TABLE syntirisi (
+    synt_id INT(4),
     syntirisi_id INT(4),
-    aitima_id INT(4),
-    PRIMARY KEY (syntirisi_id),
-    FOREIGN KEY (aitima_id)
-        REFERENCES aitima (aitima_id)
+    PRIMARY KEY (synt_id),
+    FOREIGN KEY (syntirisi_id)
+        REFERENCES aitima (syntirisi_id)
 );
 
 CREATE TABLE vlavi (
-    vlavi_idAutokinito INT(4),
-    aitima_id INT(4),
-    PRIMARY KEY (vlavi_idAutokinito),
-    FOREIGN KEY (aitima_id)
-        REFERENCES aitima (aitima_id)
+    vlavi_id INT(4),
+    syntirisi_id INT(4),
+    PRIMARY KEY (vlavi_id),
+    FOREIGN KEY (syntirisi_id)
+        REFERENCES aitima (syntirisi_id)
 );
 
 CREATE TABLE eksipiretisi_vlavis (
     ypalilos_id INT(4),
-    vlavi_idAutokinito INT(4),
-    PRIMARY KEY (ypalilos_id , vlavi_idAutokinito),
+    vlavi_id INT(4),
+    PRIMARY KEY (ypalilos_id , vlavi_id),
     FOREIGN KEY (ypalilos_id)
         REFERENCES ypalilos (ypalilos_id),
-    FOREIGN KEY (vlavi_idAutokinito)
-        REFERENCES vlavi (vlavi_idAutokinito)
+    FOREIGN KEY (vlavi_id)
+        REFERENCES vlavi (vlavi_id)
 );
 
 CREATE TABLE eksipiretisi_syntirisis (
     ypalilos_id INT(4),
     ergasia_id INT(4),
-    syntirisi_id INT(4),
+    synt_id INT(4),
     eksypiretisiSyntirisis_timestamp TIMESTAMP,
-    PRIMARY KEY (ergasia_id , syntirisi_id),
+    PRIMARY KEY (ergasia_id , synt_id),
     FOREIGN KEY (ergasia_id)
         REFERENCES ergasia (ergasia_id),
-    FOREIGN KEY (syntirisi_id)
-        REFERENCES syntirisi (syntirisi_id),
+    FOREIGN KEY (synt_id)
+        REFERENCES syntirisi (synt_id),
     FOREIGN KEY (ypalilos_id)
         REFERENCES ypalilos (ypalilos_id)
 );
