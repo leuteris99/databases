@@ -10,6 +10,7 @@ class Vlaves{
     private String syntirisi_kodikos;
     private String syntirisi_oloklirothike;
     private String vlavi_idAutokinito;
+    private String vlavi_id;
     
     Vlaves(){
         //empty constructor
@@ -17,7 +18,7 @@ class Vlaves{
     
     Vlaves(String ypalilos_id, String ypalilos_eponymo, String ypalilos_typos,
            String syntirisi_id, String syntirisi_perigrafi, String syntirisi_timestamp,
-           String syntirisi_kodikos, String syntirisi_oloklirothike, String vlavi_idAutokinito){
+           String syntirisi_kodikos, String syntirisi_oloklirothike, String vlavi_idAutokinito, String vlavi_id){
         this.ypalilos_id = ypalilos_id;
         this.ypalilos_eponymo = ypalilos_eponymo;
         this.ypalilos_typos = ypalilos_typos;
@@ -27,6 +28,7 @@ class Vlaves{
         this.syntirisi_kodikos = syntirisi_kodikos;
         this.syntirisi_oloklirothike = syntirisi_oloklirothike;
         this.vlavi_idAutokinito = vlavi_idAutokinito;
+        this.vlavi_id = vlavi_id;
     }
 
     // Getters and Setters for all the attributes
@@ -101,6 +103,14 @@ class Vlaves{
 
     public void setVlavi_idAutokinito(String vlavi_idAutokinito) {
         this.vlavi_idAutokinito = vlavi_idAutokinito;
+    }
+
+    public String getVlavi_id() {
+        return vlavi_id;
+    }
+
+    public void setVlavi_id(String vlavi_id) {
+        this.vlavi_id = vlavi_id;
     }
 
     // to string

@@ -18,6 +18,7 @@ class Ergasies{
     private String syntirisi_kodikos;
     private String syntirisi_oloklirothike;
     private String eksypiretisiSyntirisis_timestamp;
+    private String synt_id;
     
     Ergasies(){
         //empty constructor
@@ -28,7 +29,7 @@ class Ergasies{
              String ergasia_kostos, String ypalilos_id, String ypalilos_eponymo,
              String ypalilos_typos, String syntirisi_id, String syntirisi_perigrafi,
              String syntirisi_timestamp, String syntirisi_kodikos,
-             String syntirisi_oloklirothike, String eksypiretisiSyntirisis_timestamp){
+             String syntirisi_oloklirothike, String eksypiretisiSyntirisis_timestamp, String synt_id){
     this.montelo_id = montelo_id;
     this.autokinito_id = autokinito_id;
     this.ergasia_id = ergasia_id;
@@ -46,6 +47,7 @@ class Ergasies{
     this.syntirisi_kodikos = syntirisi_kodikos;
     this.syntirisi_oloklirothike = syntirisi_oloklirothike;
     this.eksypiretisiSyntirisis_timestamp = eksypiretisiSyntirisis_timestamp;
+    this.synt_id = synt_id;
     }
 
     // Getters and Setters for all the attributes
@@ -185,6 +187,14 @@ class Ergasies{
 
     public void setEksypiretisiSyntirisis_timestamp(String eksypiretisiSyntirisis_timestamp) {
         this.eksypiretisiSyntirisis_timestamp = eksypiretisiSyntirisis_timestamp;
+    }
+
+    public String getSynt_id() {
+        return synt_id;
+    }
+
+    public void setSynt_id(String synt_id) {
+        this.synt_id = synt_id;
     }
 
     // to string
