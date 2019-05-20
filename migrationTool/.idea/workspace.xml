@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0794ac8c-830c-46cb-8dd5-1d06a067cfd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/data_import.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/data_import.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/insert.sql" afterDir="false" />
-    </list>
+    <list default="true" id="0794ac8c-830c-46cb-8dd5-1d06a067cfd6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +250,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="270" y="22" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.16343284" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.15671642" />
@@ -266,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
