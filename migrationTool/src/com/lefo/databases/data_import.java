@@ -1,3 +1,12 @@
+/**
+ * @author Lefteris Alexiou
+ * @since 20/5/2019
+ *
+ * This class is a migration tool that takes a JSON file as an input and exports a SQL file containing the commands
+ * to insert the data from the input file to a MySQL database.
+ *
+ * */
+
 package com.lefo.databases;
 
 import com.google.gson.*;
@@ -10,6 +19,7 @@ class data_import {
     private static String fileOutput = "src\\com\\lefo\\databases\\insert.sql";
 
     public static void main(String[] args) {
+        // create arrays with every object from the file
         PelatesOximata[] pelatesOximataArray;
         Ergasies[] ergasiesArray;
         Vlaves[] vlavesArray;
@@ -26,27 +36,77 @@ class data_import {
         ergasiesArray = gson.fromJson(d.get("ergasies"), Ergasies[].class);
         vlavesArray = gson.fromJson(d.get("vlaves"), Vlaves[].class);
 
+        // create an object to execute methods inside the data_import.java
         data_import di = new data_import();
+        // adding escape characters to not confuse sql inside strings
+        di.fixingErgasies(ergasiesArray);
+        // changing data of syntirisi_oloklirothike to a boolean so it can pass correctly in sql
+        di.changingSyntOlok(ergasiesArray);
+
+        // append all the insert SQL commands to String Builder
         StringBuilder sqlOutput = new StringBuilder();
         sqlOutput.append(di.insertToPelatis(pelatesOximataArray))
                 .append(di.insertToMontelo(pelatesOximataArray))
-                .append(di.insertToAutokinito(pelatesOximataArray))
+                .append(di.insertToAutokinito(pelatesOximataArray,ergasiesArray))
                 .append(di.insertToErgasia(ergasiesArray))
                 .append(di.insertToYpalilos(ergasiesArray))
-                .append(di.insertToAitima(ergasiesArray,vlavesArray))
+                .append(di.insertToAitima(ergasiesArray, vlavesArray))
                 .append(di.insertToVlavi(vlavesArray))
                 .append(di.insertToSyntirisi(ergasiesArray))
                 .append(di.insertToEksipiretisiVlavis(vlavesArray))
                 .append(di.insertToEksipiretisiSyntirisis(ergasiesArray))
                 .append(di.insertToProgrammaSyntirisis(ergasiesArray));
-        save(sqlOutput.toString(),fileOutput);
-        //testing the data
-        System.out.println(pelatesOximataArray[0].toString());
-        System.out.println(ergasiesArray[0].toString());
-        System.out.println(vlavesArray[0].toString());
-
-        //save(data,fileOutput);
+        // write the inserts from the string builder to a file
+        save(sqlOutput.toString(), fileOutput);
     }
+
+    /**
+     * method that changes the syntirisi_oloklirothike var from a (Nai,Oxi) to a boolean
+     * @param ergasiesArray an array with all the ergasies to convert their syntirisi_oloklirothike var.
+     * */
+    private void changingSyntOlok(Ergasies[] ergasiesArray){
+        for (Ergasies er:ergasiesArray){
+            String temp = er.getSyntirisi_oloklirothike();
+            if (temp.equals("Nai")){
+                er.setSyntirisi_oloklirothike("true");
+            }else{
+                er.setSyntirisi_oloklirothike("false");
+            }
+        }
+    }
+
+    /**
+     * method that adds escape characters to an ergasies array.
+     * @param ergasiesArray an array with all the ergasies that will be edit
+     * */
+    private void fixingErgasies(Ergasies[] ergasiesArray) {
+        for (Ergasies er : ergasiesArray) {
+            er.setSyntirisi_perigrafi(fixingEscapeChars(er.getSyntirisi_perigrafi()));
+        }
+    }
+
+    /**
+     * method that adds escape characters to a string and return it.
+     * @param inputString the string that will be searched for escape chars.
+     * @return the input string edited to have escape chars.
+     * */
+    private String fixingEscapeChars(String inputString) {
+        final String[] escapeCharacters = {"'", "\""};
+
+        for (int i = 0; i < escapeCharacters.length; i++) {
+            if (inputString.contains(escapeCharacters[i])) {
+                inputString = inputString.replace(escapeCharacters[i], "\\" + escapeCharacters[i]);
+            }
+        }
+        return inputString;
+    }
+
+
+        /*
+        * Insert SQL commands for all the tables
+        * based from the arrays that contains the data from the input file.
+        * */
+
 
     private String insertToPelatis(PelatesOximata[] poArray) {
         StringBuilder sb = new StringBuilder();
@@ -73,7 +133,7 @@ class data_import {
         return sb.toString();
     }
 
-    private String insertToAutokinito(PelatesOximata[] poArray) {
+    private String insertToAutokinito(PelatesOximata[] poArray, Ergasies[] erArray) {
         StringBuilder sb = new StringBuilder();
         ArrayList<String> checkerArray = new ArrayList<>();
 
@@ -96,6 +156,28 @@ class data_import {
                         .append(");\n");
 
                 checkerArray.add(po.getAutokinito_id());
+            }
+        }
+
+        for (Ergasies er : erArray) {
+            boolean autokinitoExist = false;
+            for (String ch : checkerArray) {
+                if (ch.equals(er.getAutokinito_id()))
+                    autokinitoExist = true;
+            }
+            if (!autokinitoExist) {
+                sb.append("insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)")
+                        .append("\n\tvalues (")
+                        .append(er.getAutokinito_id())
+                        .append(", ")
+                        .append("null")
+                        .append(", ")
+                        .append(er.getMontelo_id())
+                        .append(", ")
+                        .append("null")
+                        .append(");\n");
+
+                checkerArray.add(er.getAutokinito_id());
             }
         }
 
@@ -390,7 +472,11 @@ class data_import {
         return sb.toString();
     }
 
-    // loads a fileInput
+    /**
+     *  method that reads a file
+     * @param filename the name of the file that will be read
+     * @return a string with the data that the file contains
+     * */
     private static String load(String filename) {
         FileInputStream fileInputStream = null;
         String data = "";
@@ -404,6 +490,7 @@ class data_import {
             }
 
             data = sb.toString();
+            System.out.println("File loaded.");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -419,13 +506,18 @@ class data_import {
         return data;
     }
 
-    // save to a fileOutput
+    /**
+     * method that write data to a file
+     * @param data the data to write in the file
+     * @param fileName the name of the file we want to write to.
+     * */
     private static void save(String data, String fileName) {
         FileOutputStream fos = null;
 
         try {
             fos = new FileOutputStream(fileName);
             fos.write(data.getBytes());
+            System.out.println("File saved.");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

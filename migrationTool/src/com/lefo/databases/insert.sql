@@ -28,6 +28,98 @@ insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_i
 	values (419, "ifx5385", 19, 419);
 insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
 	values (606, "aei7832", 6, 106);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (6, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (106, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (206, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (306, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (406, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (506, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (706, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (806, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (906, null, 6, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (18, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (118, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (218, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (318, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (418, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (518, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (618, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (718, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (818, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (918, null, 18, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (19, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (119, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (219, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (319, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (519, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (619, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (719, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (819, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (919, null, 19, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (40, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (140, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (240, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (440, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (540, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (640, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (740, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (840, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (940, null, 40, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (64, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (164, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (264, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (364, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (464, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (564, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (664, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (764, null, 64, null);
+insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)
+	values (964, null, 64, null);
 insert into ergasia (ergasia_id, ergasia_AA, ergasia_xiliometra, ergasia_perigrafi, ergasia_typos, ergasia_kostos)
 	values (6, 87, 196117, "Sunt earum quis necessitatibus inventore ex.", "Mixaniki", 3605.115);
 insert into ergasia (ergasia_id, ergasia_AA, ergasia_xiliometra, ergasia_perigrafi, ergasia_typos, ergasia_kostos)
@@ -139,105 +231,105 @@ insert into ypalilos (ypalilos_id, ypalilos_eponymo, ypalilos_typos)
 insert into ypalilos (ypalilos_id, ypalilos_eponymo, ypalilos_typos)
 	values (14, "Kessler", "Fanopoios");
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (6, 6, "Mouse had changed his mind, and was going to.", "2006-06-13 17:26:49", 1, Oxi);
+	values (6, 6, "Mouse had changed his mind, and was going to.", "2006-06-13 17:26:49", 1, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (106, 106, "Dormouse say?' one of these cakes,' she thought,.", "1981-12-10 09:51:03", 3, Nai);
+	values (106, 106, "Dormouse say?\' one of these cakes,\' she thought,.", "1981-12-10 09:51:03", 3, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (206, 206, "I am in the distance, and she thought it over.", "1987-07-28 15:16:31", 3, Oxi);
+	values (206, 206, "I am in the distance, and she thought it over.", "1987-07-28 15:16:31", 3, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (306, 306, "What happened to you? Tell us all about as much.", "1972-07-27 06:11:41", 6, Oxi);
+	values (306, 306, "What happened to you? Tell us all about as much.", "1972-07-27 06:11:41", 6, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (406, 406, "Mock Turtle repeated thoughtfully. 'I should.", "2012-11-13 10:52:09", 6, Nai);
+	values (406, 406, "Mock Turtle repeated thoughtfully. \'I should.", "2012-11-13 10:52:09", 6, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (506, 506, "Mouse had changed his mind, and was surprised to.", "2011-01-14 04:42:47", 4, Nai);
+	values (506, 506, "Mouse had changed his mind, and was surprised to.", "2011-01-14 04:42:47", 4, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (606, 606, "THEN--she found herself in the back. However, it.", "1997-06-19 12:01:51", 9, Nai);
+	values (606, 606, "THEN--she found herself in the back. However, it.", "1997-06-19 12:01:51", 9, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (706, 706, "It doesn't look like it?' he said, 'on and off,.", "1978-08-05 00:08:24", 5, Oxi);
+	values (706, 706, "It doesn\'t look like it?\' he said, \'on and off,.", "1978-08-05 00:08:24", 5, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (806, 806, "Alice's first thought was that you have of.", "1978-03-05 12:26:44", 9, Oxi);
+	values (806, 806, "Alice\'s first thought was that you have of.", "1978-03-05 12:26:44", 9, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (906, 906, "I'll try and say "How doth the little--"' and.", "1998-06-29 05:31:43", 9, Nai);
+	values (906, 906, "I\'ll try and say \"How doth the little--\"\' and.", "1998-06-29 05:31:43", 9, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (18, 18, "IN the well,' Alice said very politely, 'if I.", "2003-09-09 04:17:34", 8, Nai);
+	values (18, 18, "IN the well,\' Alice said very politely, \'if I.", "2003-09-09 04:17:34", 8, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (118, 118, "Alice quietly said, just as well wait, as she.", "2011-05-21 11:39:32", 9, Oxi);
+	values (118, 118, "Alice quietly said, just as well wait, as she.", "2011-05-21 11:39:32", 9, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (218, 218, "Will you, won't you, won't you, will you, won't.", "1980-05-20 14:45:18", 8, Nai);
+	values (218, 218, "Will you, won\'t you, won\'t you, will you, won\'t.", "1980-05-20 14:45:18", 8, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (318, 318, "Alice, 'or perhaps they won't walk the way I.", "1980-10-23 22:33:52", 6, Nai);
+	values (318, 318, "Alice, \'or perhaps they won\'t walk the way I.", "1980-10-23 22:33:52", 6, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (418, 418, "I think you'd better finish the story for.", "2007-02-02 04:14:14", 7, Nai);
+	values (418, 418, "I think you\'d better finish the story for.", "2007-02-02 04:14:14", 7, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (518, 518, "THE KING AND QUEEN OF HEARTS. Alice was not.", "1983-07-31 01:18:15", 7, Nai);
+	values (518, 518, "THE KING AND QUEEN OF HEARTS. Alice was not.", "1983-07-31 01:18:15", 7, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (618, 618, "There could be beheaded, and that if something.", "1997-11-28 13:01:50", 9, Nai);
+	values (618, 618, "There could be beheaded, and that if something.", "1997-11-28 13:01:50", 9, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (718, 718, "Ann! Mary Ann!' said the Mouse, getting up and.", "1976-03-15 01:14:02", 7, Nai);
+	values (718, 718, "Ann! Mary Ann!\' said the Mouse, getting up and.", "1976-03-15 01:14:02", 7, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (818, 818, "As soon as the Lory hastily. 'I thought it.", "1977-08-22 03:17:54", 2, Nai);
+	values (818, 818, "As soon as the Lory hastily. \'I thought it.", "1977-08-22 03:17:54", 2, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (918, 918, "No, there were a Duck and a Canary called out to.", "1996-10-04 02:30:27", 0, Nai);
+	values (918, 918, "No, there were a Duck and a Canary called out to.", "1996-10-04 02:30:27", 0, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (19, 19, "Alice caught the flamingo and brought it back,.", "1984-04-27 08:46:26", 7, Nai);
+	values (19, 19, "Alice caught the flamingo and brought it back,.", "1984-04-27 08:46:26", 7, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (119, 119, "Hatter said, tossing his head sadly. 'Do I look.", "1986-04-26 06:46:07", 6, Nai);
+	values (119, 119, "Hatter said, tossing his head sadly. \'Do I look.", "1986-04-26 06:46:07", 6, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (219, 219, "The Antipathies, I think--' (for, you see, so.", "1990-05-10 22:23:49", 5, Oxi);
+	values (219, 219, "The Antipathies, I think--\' (for, you see, so.", "1990-05-10 22:23:49", 5, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (319, 319, "Alice thought she had felt quite unhappy at the.", "1972-07-17 09:28:17", 9, Nai);
+	values (319, 319, "Alice thought she had felt quite unhappy at the.", "1972-07-17 09:28:17", 9, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (419, 419, "Alice. 'I've tried the effect of lying down on.", "1975-06-13 23:42:38", 2, Oxi);
+	values (419, 419, "Alice. \'I\'ve tried the effect of lying down on.", "1975-06-13 23:42:38", 2, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (519, 519, "Edwin and Morcar, the earls of Mercia and.", "1970-04-16 15:17:53", 6, Oxi);
+	values (519, 519, "Edwin and Morcar, the earls of Mercia and.", "1970-04-16 15:17:53", 6, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (619, 619, "I've got to the little creature down, and the.", "1996-08-20 21:11:46", 5, Nai);
+	values (619, 619, "I\'ve got to the little creature down, and the.", "1996-08-20 21:11:46", 5, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (719, 719, "Mouse replied rather crossly: 'of course you.", "1995-06-01 11:06:08", 4, Oxi);
+	values (719, 719, "Mouse replied rather crossly: \'of course you.", "1995-06-01 11:06:08", 4, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (819, 819, "The pepper when he pleases!' CHORUS. 'Wow! wow!.", "2000-01-19 23:35:32", 1, Nai);
+	values (819, 819, "The pepper when he pleases!\' CHORUS. \'Wow! wow!.", "2000-01-19 23:35:32", 1, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (919, 919, "I can remember feeling a little bottle that.", "2010-01-05 03:34:04", 4, Nai);
+	values (919, 919, "I can remember feeling a little bottle that.", "2010-01-05 03:34:04", 4, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (40, 40, "Caterpillar angrily, rearing itself upright as.", "1994-07-22 14:17:00", 8, Oxi);
+	values (40, 40, "Caterpillar angrily, rearing itself upright as.", "1994-07-22 14:17:00", 8, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (140, 140, "OUTSIDE.' He unfolded the paper as he came, 'Oh!.", "1973-12-04 20:11:29", 6, Oxi);
+	values (140, 140, "OUTSIDE.\' He unfolded the paper as he came, \'Oh!.", "1973-12-04 20:11:29", 6, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (240, 240, "Mock Turtle's Story 'You can't think how glad I.", "2015-07-10 09:39:00", 4, Oxi);
+	values (240, 240, "Mock Turtle\'s Story \'You can\'t think how glad I.", "2015-07-10 09:39:00", 4, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (340, 340, "Alice glanced rather anxiously at the stick,.", "1982-02-23 13:40:13", 2, Oxi);
+	values (340, 340, "Alice glanced rather anxiously at the stick,.", "1982-02-23 13:40:13", 2, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (440, 440, "Who ever saw in my kitchen AT ALL. Soup does.", "2012-10-09 07:58:13", 6, Nai);
+	values (440, 440, "Who ever saw in my kitchen AT ALL. Soup does.", "2012-10-09 07:58:13", 6, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (540, 540, "Alice in a VERY unpleasant state of mind, she.", "1987-11-11 05:55:07", 5, Nai);
+	values (540, 540, "Alice in a VERY unpleasant state of mind, she.", "1987-11-11 05:55:07", 5, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (640, 640, "The Gryphon lifted up both its paws in surprise..", "1991-07-06 01:28:57", 0, Nai);
+	values (640, 640, "The Gryphon lifted up both its paws in surprise..", "1991-07-06 01:28:57", 0, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (740, 740, "Queen was close behind it when she caught it,.", "1982-10-28 20:55:31", 8, Nai);
+	values (740, 740, "Queen was close behind it when she caught it,.", "1982-10-28 20:55:31", 8, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (840, 840, "Duchess replied, in a great many teeth, so she.", "1971-02-04 21:31:01", 7, Oxi);
+	values (840, 840, "Duchess replied, in a great many teeth, so she.", "1971-02-04 21:31:01", 7, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (940, 940, "Dormouse shook its head impatiently, and walked.", "1998-12-22 10:55:26", 2, Nai);
+	values (940, 940, "Dormouse shook its head impatiently, and walked.", "1998-12-22 10:55:26", 2, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (64, 64, "Alice replied, so eagerly that the pebbles were.", "2008-10-28 13:12:24", 2, Oxi);
+	values (64, 64, "Alice replied, so eagerly that the pebbles were.", "2008-10-28 13:12:24", 2, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (164, 164, "Alice again, in a whisper, half afraid that she.", "1989-03-14 17:31:40", 1, Oxi);
+	values (164, 164, "Alice again, in a whisper, half afraid that she.", "1989-03-14 17:31:40", 1, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (264, 264, "Alice; 'all I know THAT well enough; and what.", "2014-04-16 04:43:16", 8, Nai);
+	values (264, 264, "Alice; \'all I know THAT well enough; and what.", "2014-04-16 04:43:16", 8, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (364, 364, "Alice. 'I mean what I eat" is the reason so many.", "1997-01-09 05:13:02", 9, Oxi);
+	values (364, 364, "Alice. \'I mean what I eat\" is the reason so many.", "1997-01-09 05:13:02", 9, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (464, 464, "CURTSEYING as you're falling through the door,.", "2001-12-27 21:51:06", 1, Oxi);
+	values (464, 464, "CURTSEYING as you\'re falling through the door,.", "2001-12-27 21:51:06", 1, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (564, 564, "Alice, surprised at her as she could see it.", "1987-06-03 23:25:05", 9, Oxi);
+	values (564, 564, "Alice, surprised at her as she could see it.", "1987-06-03 23:25:05", 9, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (664, 664, "VERY short remarks, and she very soon finished.", "1987-08-03 18:13:09", 0, Oxi);
+	values (664, 664, "VERY short remarks, and she very soon finished.", "1987-08-03 18:13:09", 0, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (764, 764, "Queen. 'It proves nothing of the way I want to.", "1987-10-02 20:22:04", 0, Oxi);
+	values (764, 764, "Queen. \'It proves nothing of the way I want to.", "1987-10-02 20:22:04", 0, false);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (864, 864, "There was a child,' said the Mock Turtle, and.", "2018-01-30 12:08:48", 7, Nai);
+	values (864, 864, "There was a child,\' said the Mock Turtle, and.", "2018-01-30 12:08:48", 7, true);
 insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)
-	values (964, 964, "I BEG your pardon!' said the Pigeon. 'I can tell.", "2012-04-17 01:50:04", 7, Oxi);
+	values (964, 964, "I BEG your pardon!\' said the Pigeon. \'I can tell.", "2012-04-17 01:50:04", 7, false);
 insert into vlavi (vlavi_id, syntirisi_id)
 	values (0, 340);
 insert into vlavi (vlavi_id, syntirisi_id)
