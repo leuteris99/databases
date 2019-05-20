@@ -119,7 +119,7 @@ class data_import {
                     pelatisExist = true;
             }
             if (!pelatisExist) {
-                sb.append("insert into pelatis (pelatis_id, pelatis_Eponymo)")
+                sb.append("insert ignore into pelatis (pelatis_id, pelatis_Eponymo)")
                         .append("\n\tvalues (")
                         .append(po.getPelatis_id())
                         .append(", \"")
@@ -144,7 +144,7 @@ class data_import {
                     autokinitoExist = true;
             }
             if (!autokinitoExist) {
-                sb.append("insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)")
+                sb.append("insert ignore into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)")
                         .append("\n\tvalues (")
                         .append(po.getAutokinito_id())
                         .append(", \"")
@@ -166,7 +166,7 @@ class data_import {
                     autokinitoExist = true;
             }
             if (!autokinitoExist) {
-                sb.append("insert into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)")
+                sb.append("insert ignore into autokinito (autokinito_id, autokinito_arithmosKykloforias, montelo_id, pelatis_id)")
                         .append("\n\tvalues (")
                         .append(er.getAutokinito_id())
                         .append(", ")
@@ -195,7 +195,7 @@ class data_import {
                     monteloExist = true;
             }
             if (!monteloExist) {
-                sb.append("insert into montelo (montelo_id, montelo_marka, montelo_typos, montelo_etos, montelo_kubismos)")
+                sb.append("insert ignore into montelo (montelo_id, montelo_marka, montelo_typos, montelo_etos, montelo_kubismos)")
                         .append("\n\tvalues (")
                         .append(po.getMontelo_id())
                         .append(", \"")
@@ -226,7 +226,7 @@ class data_import {
                     ergasiaExist = true;
             }
             if (!ergasiaExist) {
-                sb.append("insert into ergasia (ergasia_id, ergasia_AA, ergasia_xiliometra, ergasia_perigrafi, ergasia_typos, ergasia_kostos)")
+                sb.append("insert ignore into ergasia (ergasia_id, ergasia_AA, ergasia_xiliometra, ergasia_perigrafi, ergasia_typos, ergasia_kostos)")
                         .append("\n\tvalues (")
                         .append(er.getErgasia_id())
                         .append(", ")
@@ -259,7 +259,7 @@ class data_import {
                     ypalilosExist = true;
             }
             if (!ypalilosExist) {
-                sb.append("insert into ypalilos (ypalilos_id, ypalilos_eponymo, ypalilos_typos)")
+                sb.append("insert ignore into ypalilos (ypalilos_id, ypalilos_eponymo, ypalilos_typos)")
                         .append("\n\tvalues (")
                         .append(er.getYpalilos_id())
                         .append(", \"")
@@ -286,7 +286,7 @@ class data_import {
                     aitimaExist = true;
             }
             if (!aitimaExist) {
-                sb.append("insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)")
+                sb.append("insert ignore into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)")
                         .append("\n\tvalues (")
                         .append(er.getSyntirisi_id())
                         .append(", ")
@@ -312,7 +312,7 @@ class data_import {
                     aitimaExist = true;
             }
             if (!aitimaExist) {
-                sb.append("insert into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)")
+                sb.append("insert ignore into aitima (syntirisi_id, autokinito_id, syntirisi_perigrafi, syntirisi_timestamp, syntirisi_kodikos, syntirisi_oloklirothike)")
                         .append("\n\tvalues (")
                         .append(vl.getSyntirisi_id())
                         .append(", ")
@@ -349,7 +349,7 @@ class data_import {
             if (!vlavesExist) {
                 vl.setVlavi_id(String.valueOf(vlavi_id));
 
-                sb.append("insert into vlavi (vlavi_id, syntirisi_id)")
+                sb.append("insert ignore into vlavi (vlavi_id, syntirisi_id)")
                         .append("\n\tvalues (")
                         .append(vl.getVlavi_id())
                         .append(", ")
@@ -373,12 +373,12 @@ class data_import {
         for (Ergasies er : erArray) {
             boolean syntirisiExist = false;
             for (String ch : checkerArray) {
-                if (ch.equals(er.getSynt_id()))
+                if (ch.equals(er.getSyntirisi_id()))
                     syntirisiExist = true;
             }
             if (!syntirisiExist) {
                 er.setSynt_id(String.valueOf(synt_id));
-                sb.append("insert into syntirisi (synt_id, syntirisi_id)")
+                sb.append("insert ignore into syntirisi (synt_id, syntirisi_id)")
                         .append("\n\tvalues (")
                         .append(er.getSynt_id())
                         .append(", ")
@@ -386,7 +386,7 @@ class data_import {
                         .append(");\n");
 
                 synt_id++;
-                checkerArray.add(er.getSynt_id());
+                checkerArray.add(er.getSyntirisi_id());
             }
         }
 
@@ -404,7 +404,7 @@ class data_import {
                     eksipiretisiVlavisExist = true;
             }
             if (!eksipiretisiVlavisExist) {
-                sb.append("insert into eksipiretisi_vlavis (ypalilos_id, vlavi_id)")
+                sb.append("insert ignore into eksipiretisi_vlavis (ypalilos_id, vlavi_id)")
                         .append("\n\tvalues (")
                         .append(vl.getYpalilos_id())
                         .append(", ")
@@ -429,7 +429,7 @@ class data_import {
                     eksipiretisiSyntirisisExist = true;
             }
             if (!eksipiretisiSyntirisisExist) {
-                sb.append("insert into eksipiretisi_syntirisis (ypalilos_id, ergasia_id, synt_id, eksypiretisiSyntirisis_timestamp)")
+                sb.append("insert ignore into eksipiretisi_syntirisis (ypalilos_id, ergasia_id, synt_id, eksypiretisiSyntirisis_timestamp)")
                         .append("\n\tvalues (")
                         .append(er.getYpalilos_id())
                         .append(", ")
@@ -458,7 +458,7 @@ class data_import {
                     programmaSyntirisisExist = true;
             }
             if (!programmaSyntirisisExist) {
-                sb.append("insert into programma_syntirisis (ergasia_id, montelo_id)")
+                sb.append("insert ignore into programma_syntirisis (ergasia_id, montelo_id)")
                         .append("\n\tvalues (")
                         .append(er.getErgasia_id())
                         .append(", ")
