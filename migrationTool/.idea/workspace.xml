@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0794ac8c-830c-46cb-8dd5-1d06a067cfd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/data_import.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/data_import.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/insert.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lefo/databases/select.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lefo/databases/select.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,10 +18,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/data_import.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
+            <state relative-caret-position="476">
               <caret line="388" column="53" selection-start-line="388" selection-start-column="53" selection-end-line="388" selection-end-column="53" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/databases2.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1043">
-              <caret line="4850" column="53" lean-forward="true" selection-start-line="4850" selection-start-column="53" selection-end-line="4850" selection-end-column="53" />
+            <state relative-caret-position="82450">
+              <caret line="4850" column="53" selection-start-line="4850" selection-start-column="53" selection-end-line="4850" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -44,16 +43,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/create.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="1547">
               <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/insert.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5292">
+            <state relative-caret-position="340">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
@@ -143,8 +142,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="270" />
-    <option name="y" value="22" />
+    <option name="x" value="579" />
+    <option name="y" value="187" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -154,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,7 +177,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,6 +186,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -228,8 +228,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.data_import" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.data_import" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -255,10 +255,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="270" y="22" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="579" y="187" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.16567165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.17238806" />
       <window_info id="Structure" order="1" sideWeight="0.5005767" side_tool="true" weight="0.15671642" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,15 +295,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/data_import.class" />
     <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/Main.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonParser.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonParser.class" />
+    <entry file="file://$PROJECT_DIR$/migrationTool.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/select.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/data_import.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="476">
+          <caret line="388" column="53" selection-start-line="388" selection-start-column="53" selection-end-line="388" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrationTool.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/databases2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82450">
+          <caret line="4850" column="53" selection-start-line="4850" selection-start-column="53" selection-end-line="4850" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/insert.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/Ergasies.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,41 +370,6 @@
             <element signature="e#3260#3261#0" expanded="true" />
             <element signature="e#3300#3301#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/databases2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="4850" column="53" lean-forward="true" selection-start-line="4850" selection-start-column="53" selection-end-line="4850" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/select.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/data_import.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="388" column="53" selection-start-line="388" selection-start-column="53" selection-end-line="388" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lefo/databases/insert.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5292">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
