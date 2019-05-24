@@ -35,6 +35,7 @@ CREATE TABLE ergasia (
     PRIMARY KEY (ergasia_id)
 );
 
+
 CREATE TABLE ypalilos (
     ypalilos_id INT(4),
     ypalilos_eponymo VARCHAR(20),
@@ -103,5 +104,3 @@ CREATE TABLE programma_syntirisis (
     FOREIGN KEY (montelo_id)
         REFERENCES montelo (montelo_id)
 );
-
--- TODO: na psakso to ignore

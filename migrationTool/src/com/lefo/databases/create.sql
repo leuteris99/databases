@@ -1,11 +1,11 @@
 CREATE TABLE pelatis (
-    pelatis_id INT(4),
+    pelatis_id INT(4) AUTO_INCREMENT,
     pelatis_Eponymo VARCHAR(25),
     PRIMARY KEY (pelatis_id)
 );
 
 CREATE TABLE montelo (
-    montelo_id INT(4),
+    montelo_id INT(4) AUTO_INCREMENT,
     montelo_marka VARCHAR(20),
     montelo_typos VARCHAR(20),
     montelo_etos YEAR(4),
@@ -14,7 +14,7 @@ CREATE TABLE montelo (
 );
 
 CREATE TABLE autokinito (
-    autokinito_id INT(4),
+    autokinito_id INT(4) AUTO_INCREMENT,
     autokinito_arithmosKykloforias VARCHAR(10),
     montelo_id INT(4),
     pelatis_id INT(4),
@@ -26,7 +26,7 @@ CREATE TABLE autokinito (
 );
 
 CREATE TABLE ergasia (
-    ergasia_id INT(4),
+    ergasia_id INT(4) AUTO_INCREMENT,
     ergasia_AA INT(4),
     ergasia_xiliometra INT(4),
     ergasia_perigrafi VARCHAR(150),
@@ -35,15 +35,16 @@ CREATE TABLE ergasia (
     PRIMARY KEY (ergasia_id)
 );
 
+
 CREATE TABLE ypalilos (
-    ypalilos_id INT(4),
+    ypalilos_id INT(4) AUTO_INCREMENT,
     ypalilos_eponymo VARCHAR(20),
     ypalilos_typos VARCHAR(20),
     PRIMARY KEY (ypalilos_id)
 );
 
 CREATE TABLE aitima (
-    syntirisi_id INT(4),
+    syntirisi_id INT(4) AUTO_INCREMENT,
     autokinito_id INT(4),
     syntirisi_perigrafi VARCHAR(150),
     syntirisi_timestamp TIMESTAMP,
@@ -55,7 +56,7 @@ CREATE TABLE aitima (
 );
 
 CREATE TABLE syntirisi (
-    synt_id INT(4),
+    synt_id INT(4) AUTO_INCREMENT,
     syntirisi_id INT(4),
     PRIMARY KEY (synt_id),
     FOREIGN KEY (syntirisi_id)
@@ -63,7 +64,7 @@ CREATE TABLE syntirisi (
 );
 
 CREATE TABLE vlavi (
-    vlavi_id INT(4),
+    vlavi_id INT(4) AUTO_INCREMENT,
     syntirisi_id INT(4),
     PRIMARY KEY (vlavi_id),
     FOREIGN KEY (syntirisi_id)
@@ -103,5 +104,3 @@ CREATE TABLE programma_syntirisis (
     FOREIGN KEY (montelo_id)
         REFERENCES montelo (montelo_id)
 );
-
--- TODO: na psakso to ignore
